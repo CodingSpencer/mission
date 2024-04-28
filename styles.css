@@ -2,21 +2,24 @@
 {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header p
 {
     color: #006eb6;
-    padding: 0px;
+    margin: 0px;
 }
 
 header
 {
     text-align: center;
     letter-spacing: 2px;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .content
@@ -47,5 +50,16 @@ ol
 
 li
 {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+main hr
+{
+    margin-bottom: 60px;
 }
